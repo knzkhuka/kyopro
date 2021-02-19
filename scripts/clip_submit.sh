@@ -1,0 +1,1 @@
+cat submit.cpp | clip.exe
