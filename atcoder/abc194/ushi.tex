@@ -1,0 +1,11 @@
+\documentclass[dvipdfmx]{jsarticle}
+\begin{document}
+\begin{eqnarray*}
+  \sum_{i=1}^{N-1} \sum_{j=0}^{i-1} (A_i-A_j)^2
+  &=& \sum_{i=1}^{N-1} \sum_{j=0}^{i-1} (A_i^2 -2A_iA_j + A_j^2)\\
+  &=& \sum_{i=1}^{N-1} (i*A_i^2 - 2A_i\sum_{j=0}^{i-1} A_j + \sum_{j=0}^{i-1} A_j^2)
+\end{eqnarray*}
+\begin{eqnarray*}
+  dp_{i-1} = dp_i + \frac{n}{i-1}
+\end{eqnarray*}
+\end{document}
