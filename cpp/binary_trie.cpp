@@ -1,16 +1,3 @@
-#pragma GCC target("avx2")
-#pragma GCC optimize("O3")
-#pragma GCC optimize("unroll-loops")
-
-#include<bits/stdc++.h>
-using namespace std;
-
-struct fastio{fastio(){cin.tie(nullptr);ios_base::sync_with_stdio(false);std::cout<<std::fixed<<setprecision(10);}}oitsaf;
-constexpr char newl = '\n';
-template<class T>std::istream&operator>>(std::istream&is,std::vector<T>&v){for(auto &elemnt:v)is>>elemnt;return is;}
-template<class T>std::ostream&operator<<(std::ostream&os,std::vector<T>const&v){for(auto const& vi:v)os<<vi<<" ";return os;}
-int64_t operator"" _i(unsigned long long x) { return (int64_t)(x); }
-
 #include <iostream>
 #include <vector>
 
